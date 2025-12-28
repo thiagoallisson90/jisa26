@@ -1011,24 +1011,6 @@
         LorawanMacHelper::SFTPA2(endDevices, gateways, channel, 
                                  toas, 3, true, 600);
      }
-     else if (sfa == "sftpa3")
-     {
-        //std::cout << "Accessando SFTPA3\n";
-        LorawanMacHelper::SFTPA3(endDevices, gateways, channel, 
-                                 toas, 3, true, 600);
-     }
-     else if (sfa == "sftpa4")
-     {
-        //std::cout << "Accessando SFTPA3\n";
-        LorawanMacHelper::SFTPA4(endDevices, gateways, channel, 
-                                 toas, 3, true, 600, 0.99);
-     }
-     else if (sfa == "sftpa2_1")
-     {
-        //std::cout << "Accessando SFTPA3\n";
-        LorawanMacHelper::SFTPA2_1(endDevices, gateways, channel, 
-                                   toas, 3, true, 600);
-     }
  
      for (uint32_t i = 0; i < gateways.GetN(); i++)
      {
